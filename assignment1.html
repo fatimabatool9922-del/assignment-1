@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my first page</title>
+    </head>
+    <body>
+       <h1>Complex HTML Structure Demo</h1>
+       <p>a sample page with tables,forms,and nested list</p>
+       <h2>Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label>Full Name:
+                <input type="text"placeholder="enter your name">
+            </label>
+            <br><br>
+
+            <label>Email address:
+                <input type="email">
+            </label>
+            <br><br>
+
+            <label>Date of birth:
+                <input type="date">
+            </label>
+            <br><br>
+            <label>Gender:
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+             </label>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Account Details</legend>
+            <label>Username:
+                   <input type="text">
+            </label>
+            <br><br>
+            <label>Password:
+                <input type="text">
+            </label>
+            <br><br>
+            
+           <label>
+            <input type="checkbox">accept terms and conditions
+           </label>
+        </fieldset>
+
+        <button type="submit">submit</button>
+    </form>
+  <h2>Advanced Complex Table Structure</h2>
+
+<table border="1" cellspacing="0" cellpadding="4">
+    <tr>
+        <th>Department</th>
+        <th colspan="2">Employee Details</th>
+        <th>Performance</th>
+        <th>Actions</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Email</th>
+        <th></th>
+        <th></th>
+    </tr>
+    <!-- Development Department -->
+    <tr>
+        <td rowspan="4">Development</td>
+        <td><b>John Doe</b><br>Team Lead</td>
+        <td>john@example.com</td>
+        <td>
+            <b>Q1 Progress</b><br>
+            Projects: 4<br>
+            Rating: 8/10
+        </td>
+        <td>
+            Edit<br>
+            Remove
+        </td>
+    </tr>
+    <tr>
+        <td><b>Sarah Smith</b><br>Senior Developer</td>
+        <td>sarah@example.com</td>
+        <td>
+            • On Track<br>
+            • Attends daily standups<br>
+            • Completed 95% tasks
+        </td>
+        <td>Edit</td>
+    </tr>
+    <tr>
+        <td><input type="text" placeholder="Enter new name"></td>
+        <td><input type="text" placeholder="Enter email"></td>
+        <td></td>
+        <td>Save</td>
+    </tr>
+    <!-- Human Resources Department -->
+    <tr>
+        <td rowspan="2">Human Resources</td>
+        <td>Ayesha Khan</td>
+        <td>ayesha@company.com</td>
+        <td>
+            <b>Interviews</b> | <b>Status</b><br>
+            12 Conducted | Good
+        </td>
+        <td>Edit</td>
+    </tr>
+    <tr>
+        <td>Input New HR</td>
+        <td><input type="text" placeholder="hr@example.com"></td>
+        <td>Active</td>
+        <td>Save</td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center"><b>Total Departments: 2 | Total Employees Listed: 4</b></td>
+    </tr>
+</table>
+
+</body>
+</html>
+ 
